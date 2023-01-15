@@ -1,9 +1,34 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Greeting from '../components/Greeting';
-const pageTitle = "Home Page";
+
+import HeroSlider from '../components/HeroSlider.astro';
+import PostGrid from '../components/PostGrid.astro';
+
+import HistoryCategory from '../components/HistoryCategory.astro';
+import GeographyCategory from '../components/GeographyCategory.astro';
+import CultureCategory from '../components/CultureCategory.astro';
 ---
-<BaseLayout pageTitle={pageTitle}>
-  <h2>My awesome blog subtitle</h2>
-  <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
+
+<BaseLayout title="Study4JPSC">
+	
+	<main id="main">
+	
+		<!-- ======= Hero Slider Section goes here ======= -->
+		<HeroSlider />
+		
+		<!-- ======= Post Grid Section goes here ======= -->
+		<PostGrid />
+
+		<!-- ======= History Category Section goes here ======= -->
+		<HistoryCategory />
+
+		<!-- ======= Geography Category Section goes here ======= -->
+		<GeographyCategory />
+
+		<!-- ======= Lifestyle Category Section goes here ======= -->
+		<CultureCategory />
+
+	  
+	</main><!-- End #main -->
+
 </BaseLayout>

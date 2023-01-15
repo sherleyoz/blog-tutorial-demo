@@ -1,12 +1,39 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+
 const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-  <p>{frontmatter.pubDate.slice(0, 10)}</p>
-  <p><em>{frontmatter.description}</em></p>
-  <p>Written by: {frontmatter.author}</p>
-  <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
-  <slot />
+  
+  <div class="col-md-9 post-content">
+    <div class="single-post">
+      <div class="post-meta">
+        
+        <span class="date">{frontmatter.category}</span> 
+        <span class="mx-1">&bullet;</span> <span>{frontmatter.pubDate.slice(0, 10)}</span>
+      </div>
+        <h1 class="mb-5">{frontmatter.title}</h1>
+
+        <figure class="my-4">
+          <img src={frontmatter.imageurl} alt="" class="img-fluid">
+          <figcaption>{frontmatter.imagealt}</figcaption>
+        </figure>
+
+      <slot />
+
+    </div>  
+  </div>
+
+  <style>
+    .single-post {
+      margin: 100px auto;
+    }
+
+    :global(img) {
+      width: 500px;
+      height: 300px;
+    }
+  </style>
+ 
 </BaseLayout>

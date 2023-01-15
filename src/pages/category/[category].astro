@@ -1,0 +1,64 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const allPosts = await Astro.glob("../posts/*.md");
+
+  const uniqueCategory = [
+    ...new Set(allPosts.map((post) => post.frontmatter.category).flat()),
+  ];
+
+  console.log(uniqueCategory)
+  return uniqueCategory.map((category) => {
+    const filteredPosts = allPosts.filter((post) =>
+      post.frontmatter.category.includes(category)
+    );
+    return {
+      params: { category },
+      props: { posts: filteredPosts },
+    };
+  });
+}
+
+const { category } = Astro.params;
+const { posts } = Astro.props;
+---
+
+<BaseLayout pageTitle={category}>
+  <div class="category-content col-md-9">
+  <ul>
+    {
+      posts.map((post) => (
+      
+      <h3 class="category-title">Category: {post.frontmatter.category}</h3>
+
+      <div class="d-md-flex post-entry-2 half">
+      <a href={post.url} class="me-4 thumbnail">
+        <img src={post.frontmatter.imageurl} alt="" class="img-fluid">
+      </a>
+      <div>
+        <div class="post-meta"><span class="date">{post.frontmatter.category}</span> <span class="mx-1">&bullet;</span> <span>{post.frontmatter.pubDate.slice(0, 10)}</span></div>
+        <h3><a href={post.url}>{post.frontmatter.title}</a></h3>
+        <p>{post.frontmatter.description}</p>
+        <div class="d-flex align-items-center author">
+          <div class="name">
+            <h3 class="m-0 p-0">{post.frontmatter.author}</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      ))
+    }
+  </ul>
+
+</div>
+
+<style>
+  .category-content{
+    margin: 100px auto;
+  }  
+</style>
+
+
+</BaseLayout>
