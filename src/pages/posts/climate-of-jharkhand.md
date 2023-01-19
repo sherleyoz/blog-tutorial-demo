@@ -7,9 +7,8 @@ author: Admin
 image: /images/khandoli-hill.jpg
 tags:
   - climate
+  - mains
 category:
-  - JPSC
-  - climate
   - geography
 ---
 <!--\[if gte mso 9]><xml>
