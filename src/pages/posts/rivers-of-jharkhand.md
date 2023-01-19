@@ -6,10 +6,10 @@ description: RIVERS of JHARKHAND
 author: Admin
 image: /images/Jhiri-Lake.jpg
 tags:
-  - '"JPSC"'
-  - '"rivers"'
+  - JPSC
+  - rivers
 category:
-  - '"geography"'
+  - geography
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
