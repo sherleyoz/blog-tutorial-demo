@@ -4,7 +4,7 @@ title: CLIMATE of JHARKHAND
 pubDate: 2023-01-19T17:26:42.186Z
 description: CLIMATE of JHARKHAND
 author: Admin
-image: ""
+image: /images/Climate of Jharkhand.jpg
 tags:
   - climate
   - mains
