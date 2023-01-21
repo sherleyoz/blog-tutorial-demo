@@ -4,7 +4,7 @@ title: CLIMATE of JHARKHAND
 pubDate: 2023-01-19T17:26:42.186Z
 description: CLIMATE of JHARKHAND
 author: Admin
-image: /images/Climate of Jharkhand.jpg
+image: ""
 tags:
   - climate
   - mains
@@ -36,9 +36,7 @@ category:
 
 On the basis of humidity, rainfall and temperature, the climate of Jharkhand is divided into 07 zones:
 
-
-
-![Chinnamasta Temple](/images/Chhinnamasta-rajrappa.jpg)
+![Climatic zones of Jharkhand](/images/Climate of Jharkhand.jpg "Climatic zones of Jharkhand")
 
 1. North and North-Western Zone
 
