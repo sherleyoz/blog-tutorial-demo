@@ -4,7 +4,7 @@ title: CLIMATE of JHARKHAND
 pubDate: 2023-01-19T17:26:42.186Z
 description: CLIMATE of JHARKHAND
 author: Admin
-image: /images/climate-of-jharkhand.jpg
+image: ""
 tags:
   - climate
   - mains
@@ -32,11 +32,13 @@ category:
   * The rainy season (mid-June to mid-October)
   * The winter season (November to mid-March)
 
-
-
 ## Climatic Zones of Jharkhand
 
 On the basis of humidity, rainfall and temperature, the climate of Jharkhand is divided into 07 zones:
+
+
+
+![Chinnamasta Temple](/images/Chhinnamasta-rajrappa.jpg)
 
 1. North and North-Western Zone
 
@@ -46,42 +48,30 @@ On the basis of humidity, rainfall and temperature, the climate of Jharkhand is 
    * Average rainfall – 1270 mm 
    * Hot winds blow in the summer.
    * In this zone, Daltonganj of Palamu district is the hottest place of Jharkhand.
-
-
 2. Central Zone
 
    * The Central climatic zone is spread over western Dumka, Jamtara, Bokaro, Dhanbad, Southern Chatra, Southern Hazaribagh and East Latehar.
    * Average annual rainfall – 1270 – 1650 mm.
    * The intensity of heat is lesser here in comparison with other areas due to higher elevation and adequate forest cover.
    * This zone is less affected by loo and storm. In southern Hazaribagh, the impact of heat is less due to low temperature.
-
-
 3. East Santhal Pargana Zone	
 
    * This area comes under highlands of Rajmahal like Sahibganj and Pakur. The proximity to the Bay of Bengal and its elevational position provides this region good amount of rainfall.
    * The area receives average annual rainfall around 1525 mm. This part receives most of the rain in summers. The Rajmahal hills act as a barrier between warm westerly winds and the moisture laden winds of the Bay of Bengal. It is loo free zone.
-
-
 4. Ocean Affected Zone (Eastern Singhbhum)
 
    * The ocean affected zone is extended to the area of Eastern Singhbhum, Seraikela-Kharsawan and Eastern part of West Singhbhum and Panchpargana part of Ranchi.
    * This is the zone of maximum rainfall around 1400-1500 mm. The proximity of ocean to this zone provides maximum rainfall. Thunderstorm is very regular here during summer season.
    * It is loo and storm free zone but in Jamshedpur, loo and storm blows in the month of April and May.
-
-
 5. South-West Zone
 
    * The South-West climatic zone comprises the area between the Sankh and the South Koel river alongwith West Singhbhum. This zone is comparatively less warmer in summer because of thick forest cover.
    * The large forest of Saranda and Porahat comes under this zone. The area gets average rainfall between 600-1520 mm.
-
-
 6. Ranchi-Hazaribagh Zone
 
    * The climatic condition of this zone is considered as pleasant which makes it a hill station. The zone is extended to the plateau region of Ranchi and Hazaribagh. The height of over 2000 ft (610 m) plays an important role to decide the climate here.
    * The temperature remains lower during summer due to height. The onset of monsoon and rainfall lowers the temperature considerably. The average rainfall of Hazaribagh is 1485 mm. This zone remains free from dust storm.
    * The climate of this region is similar to the European type of climate.
-
-
 7. Pat Zone
 
    * The climatic condition of Pat zone is usually same as that of Ranchi-Hazaribagh zone except low temperature due to its higher elevation. It extends to Lohardaga and Gumla region of Jharkhand. The height of this zone keeps the temperature lower even in the summer and provides more rainfall.
