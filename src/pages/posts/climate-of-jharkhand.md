@@ -17,14 +17,10 @@ category:
   * Height from sea level
   * Distance from sea
   * Western disturbances
-
-
 * Tropic of Cancer passes almost through the centre of state which makes the climate sub-tropical, but the location of state on height along with monsoonal wind makes the climate monsoonal.
 
   * Monsoon wind comes here from the Arabian Sea and other from the Bay of Bengal
   * The wind from the Bay of Bengal brings more moisture than Arabian sea due to its proximity to Bay of Bengal.
-
-
 * About one-third of the area has an average elevation of 400m and rest has the height of 300 m. The average annual temperature of Jharkhand is 25 °C and average annual rainfall is 1200 mm. 
 * The annual average temperature of Pat region remains 23 °C whereas the annual average temperature in Garhwa, Palamu, East Singhbhum, West Singhbhum and East part of Santhal Pargana and North part of Chatra remains 26 °C.
 
@@ -38,7 +34,7 @@ category:
 
 
 
-### Climatic Zones of Jharkhand
+## Climatic Zones of Jharkhand
 
 On the basis of humidity, rainfall and temperature, the climate of Jharkhand is divided into 07 zones:
 
