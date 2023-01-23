@@ -26,12 +26,11 @@ const { posts } = Astro.props;
 
 <BaseLayout pageTitle={category}>
   <div class="category-content col-md-9">
+  <h3 class="category-title">Category: {category}</h3>
   <ul>
-    {
+  {
       posts.map((post) => (
       
-      <h3 class="category-title">Category: {post.frontmatter.category}</h3>
-
       <div class="d-md-flex post-entry-2 half">
       <a href={post.url} class="me-4 thumbnail">
         <img src={post.frontmatter.imageurl} alt="" class="img-fluid">
