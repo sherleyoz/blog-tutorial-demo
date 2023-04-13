@@ -13,7 +13,7 @@ category: ["history"]
 
 # HISTORY of JHARKHAND
 
-![Jhiri Lake](/images/Jhiri-Lake.jpg)
+![Jhiri Lake](../images/Jhiri-Lake.jpg)
 
 # Prehistoric era
 
