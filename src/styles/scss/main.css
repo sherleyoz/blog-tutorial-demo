@@ -196,6 +196,7 @@ section {
     position: relative;
   }
   .navbar a, .navbar a:focus {
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -387,6 +388,7 @@ section {
   font-weight: 500;
 }
 .post-entry-1 h2 a {
+  text-decoration: none;
   color: var(--color-black);
 }
 .post-entry-1.lg h2 {
@@ -1073,6 +1075,7 @@ section {
   margin-bottom: 10px;
 }
 .footer .footer-links li a {
+  text-decoration: none;
   color: rgba(var(--color-white-rgb), 0.7);
 }
 .footer .footer-links li a:hover, .footer .footer-links li a:focus {
